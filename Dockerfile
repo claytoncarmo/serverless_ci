@@ -5,12 +5,11 @@ RUN apk update && apk add --update --no-cache \
     git \
     bash \
     curl \
+    wget \
     openssh \
     python3 \
     py3-pip \
     py-cryptography \
-    wget \
-    curl \
     aws-cli
 
 RUN apk --no-cache add --virtual builds-deps build-base python3
