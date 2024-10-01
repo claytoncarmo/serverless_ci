@@ -16,4 +16,4 @@ RUN apk update && apk add --update --no-cache \
 RUN apk --no-cache add --virtual builds-deps build-base python3
 
 # Install Serverless Framework
-RUN npm install -g serverless@3
+RUN npm install -g serverless@4
